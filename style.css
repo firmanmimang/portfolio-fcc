@@ -1,6 +1,24 @@
 .jumbotron {
-  padding-top: 6rem;
+  padding-top: 5rem;
   background-color: #e2edff;
+  height: 100vh;
+  position: relative;
+}
+
+.display-4{
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+
+.lead{
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.wave1{
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 #projects {
@@ -9,4 +27,11 @@
 
 section {
   padding-top: 5rem;
+}
+
+/*mobile breakpoints*/
+@media (max-width: 576px){
+  .btn-github{
+    width: 50%;
+  }
 }
